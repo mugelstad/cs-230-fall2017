@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Screencast</title>
+        <link rel='stylesheet' href='../../stylesheets/styles.css'>
+        <link rel='stylesheet' href='../../stylesheets/dropdown.css'>
+    </head>
+    <body>
+       <body>
+        <div class="navbar">
+          <a href="../../index.html">Home</a>
+
+          <div class="dropdown">
+              <button class="dropbtn" onclick="webFunction()">Computer Systems Projects
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content" id="computerSystems">
+                <a href="../../cs240/index.html">Computer Systems Home</a>
+                <a href="../../cs240/memory-allocation/index.html">Memory Allocation</a>
+                <a href="../../cs240/shell/index.html">Building a Shell</a>
+                <a href="../../cs240/bits/index.html">Working with Bits</a>
+                <a href="../../cs240/pointers/index.html">Pointers</a>
+                <a href="../../cs240/x86/index.html">x86</a>
+              </div>
+            </div>
+
+          <div class="dropdown">
+            <button class="dropbtn" onclick="structuresFunction()">Data Structures Final Project
+              <i class="fa fa-caret-down"></i>
+            </button>
+           <div class="dropdown-content" id="dataStructures">
+              <a href="../../data-structures.html">Data Structures Home</a>
+              <a href="../../phase01/phase01.html">Phase One</a>
+              <a href="../../phase02/phase02.html">Phase Two</a>
+              <a href="../../phase03/phase03.html">Phase Three</a>
+            </div>
+          </div>
+
+        <div class="dropdown">
+            <button class="dropbtn" onclick="webFunction()">Front-End Web Development Projects
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content" id="webDevelopment">
+              <a href="../../web-development.html">Web Development Home</a>
+              <a href="../../cs204/a10-game/index.html">Jelly Blobs of Doom</a>
+              <a href="../../cs204/taskmin-done/index.html">Task Administrator</a>
+              <a href="../../cs204/a05-done/index.html">Sliding Tiles</a>
+              <a href="../../cs204/a06-done/index.html">Game of Concentration</a>
+              <a href="../../cs204/a04-done/index.html">Rock/Paper/Scissors</a>
+              <!--<a href="../cs204/a07-done/index.html">Signup Form</a>-->
+              <a href="../../cs204/a11-done/index.html">Learning Tree</a>
+            </div>
+          </div>
+        </div>
+
+        <!--screencast of game-->
+        <div id="video" style="text-align:center">
+             <video class='video' width='70%' height='500' controls>
+            <source src='CS_230_Final_Video.mp4' type='video/mp4'>
+            <source src='movie.ogg' type='video/ogg'>
+            Your browser does not support the video tag.</video>
+        </div>
+
+    </body>
+</html>
