@@ -8,12 +8,12 @@ I collaborated with a team of two others to program a geocaching/scavenger hunt 
 This project used two Applied Data Types (ADTs). In particular, it made use of a complete graph called Map that extended Graph from the javafoundations package. This was used to organize the locations on the map. It also used LinkedLists. Specifically, LinkedLists were used for two primary functions: keeping track of each node on the map and keeping track of the clues associated with each node. 
 
 # Pictoral Representations
-![Flowchart](./Phase03/screenshots/screenshot-flowchart)
-![About Tab](./Phase03/screenshots/screenshot-about)
-![About Tab Description](./Phase03/screenshots/screenshot-description)
-![Starting Game Board](./Phase03/screenshots/screenshot-starting)
-![After an Item Found](./Phase03/screenshots/screenshot-found)
-![As Game Progresses](./Phase03/screenshots/screenshot-game)
+![Flowchart](./phase3/screenshots/screenshot-flowchart)
+![About Tab](./phase3/screenshots/screenshot-about)
+![About Tab Description](./phase3/screenshots/screenshot-description)
+![Starting Game Board](./phase3/screenshots/screenshot-starting)
+![After an Item Found](./phase3/screenshots/screenshot-found)
+![As Game Progresses](./phase3/screenshots/screenshot-game)
 
 # Where can I find important files in this project?
 The user's manual can be found in the Phase03 folder under users-manual.pdf.
